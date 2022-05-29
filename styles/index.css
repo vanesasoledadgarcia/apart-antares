@@ -158,6 +158,12 @@
 
 .imagen{
     width: 50%;
+    transition: height 2s;
+}
+
+.imagen:hover{
+    height: 80%;
+    width: 100%;
 }
 
 
