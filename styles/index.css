@@ -113,7 +113,7 @@
 }
 
 .footer{
-    background-color:#ecc38d;
+    background-image: linear-gradient(to right, rgba(0, 68, 255, 0.89), rgb(0, 153, 255));
     color: #ffffff;
     display: flex;
     justify-content: space-around;
