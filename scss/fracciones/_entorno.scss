@@ -1,0 +1,17 @@
+.article{
+    display: flex;
+    width: 100%;
+    
+    &__p{
+        display: flex;
+        align-items: center;
+        width: 60%;
+        margin: 20px;   
+    }
+
+    &__img{
+        width: 400px;
+        height: 400px;
+        margin: 20px;
+    }
+}

@@ -80,3 +80,30 @@
   padding: 1.5%; }
   .footer__a {
     color: #ffffff; }
+
+.article {
+  display: flex;
+  width: 100%; }
+  .article__p {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: 20px; }
+  .article__img {
+    width: 400px;
+    height: 400px;
+    margin: 20px; }
+
+.galeria {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center; }
+
+.imagen {
+  width: 50%;
+  transition: height 2s; }
+  .imagen:hover {
+    height: 80%;
+    width: 100%; }

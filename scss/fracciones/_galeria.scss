@@ -1,0 +1,17 @@
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.imagen{
+    width: 50%;
+    transition: height 2s;
+
+    &:hover{
+        height: 80%;
+        width: 100%;
+    }
+}
