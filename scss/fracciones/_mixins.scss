@@ -1,0 +1,16 @@
+@mixin fuente($tamanio, $grosor){
+    fuente-tamaño: $tamanio;
+    fuente-grosor: $grosor;
+}
+
+.letraChica {
+    @include fuente (1rem, 100)
+}
+
+.letraMediana {
+    @include fuente (2rem, 400)
+}
+
+.letraGrande {
+    @include fuente (4rem, 700)
+}

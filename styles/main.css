@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -149,3 +150,24 @@
   /*footer*/
   .footer {
     flex-direction: column; } }
+
+.letraChica {
+  fuente-tamaño: 1rem;
+  fuente-grosor: 100; }
+
+.letraMediana {
+  fuente-tamaño: 2rem;
+  fuente-grosor: 400; }
+
+.letraGrande {
+  fuente-tamaño: 4rem;
+  fuente-grosor: 700; }
+
+.iconTelefono {
+  color: #090984; }
+
+.iconEmail {
+  color: #c712af; }
+
+.iconBooking {
+  color: #d8f002; }

@@ -1,0 +1,17 @@
+$redes: (
+    "Telefono": rgb(9, 9, 132),
+    "Email": rgb(199, 18, 175),
+    "Booking": rgb(216, 240, 2),
+);
+
+.iconTelefono {
+    color: map-get($map:$redes,$key:Telefono)
+}
+
+.iconEmail {
+    color: map-get($map:$redes,$key:Email)
+}
+
+.iconBooking {
+    color: map-get($map:$redes,$key:Booking)
+}
